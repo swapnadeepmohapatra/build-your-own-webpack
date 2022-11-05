@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "node dist/bundle.js"
+    "start": "node dist/bundle.js",
+    "build:dev": "node pack.js",
+    "start:dev": "node build/bundle.js"
   },
   "keywords": [],
   "author": "",
